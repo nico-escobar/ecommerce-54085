@@ -1,0 +1,39 @@
+.item-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.info-detail {
+    flex: 1;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+}
+
+.image-detail {
+    flex: 0 0 200px;
+    margin-left: 1rem;
+}
+
+.image-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
