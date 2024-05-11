@@ -1,0 +1,104 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid #32b97e;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.label {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #329891;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.button:hover {
+    background-color: #43bdb5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.message {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.message h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.message p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.message a {
+    display: inline-block;
+    background-color: #329891; 
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.message a:hover {
+    background-color: #45b6ae; 
+}
+.button-volver {
+    display: inline-block;
+    background-color: #329891;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 15px;
+    border: 1px solid #329891;
+    transition: background-color 0.3s;
+}
+
+.button-volver:hover {
+    background-color: #347038;
+}
+
+
